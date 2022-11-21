@@ -1,10 +1,13 @@
-import React from 'react'
+import React, { useState } from 'react'
 import logo from "../images/img2.JPG"
 import Button from './button'
+import PageModal from './modal';
 
 export default function NavBar() {
+    const [modalShow, setModalShow] = useState(false);
+
     return (
-        <nav className="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+        <nav className="navbar navbar-expand-lg navbar-light sticky-top">
             <div className="container d-flex justify-content-between">
                 <div className='d-flex align-items-center'>
                     <img src={logo} className="image-fluid me-3" width="100px" />
@@ -24,16 +27,20 @@ export default function NavBar() {
                 </div>
                 <div>
                     <Button
-                     text="LOG IN" 
-                     buttonColor="primary"
-                     textColor="light" />
+                        text="LOG IN"
+                        buttonClass="btn-primary"
+                        textColor="light" />
 
-                    <Button 
-                    text="GET STARTED"
-                     buttonColor="success" 
-                     textColor="dark" />
+                    <Button
+                        text="GET STARTED"
+                        style={{ backgroundColor: "#7FFFD4" }}
+                        textColor="dark"
+                        mod={() => setModalShow(true)}
+                    />
                 </div>
             </div>
+            <PageModal show={modalShow}
+                onHide={() => setModalShow(false)} />
         </nav>
 
     )
