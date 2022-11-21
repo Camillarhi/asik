@@ -10,17 +10,17 @@ export default function NavBar() {
         <nav className="navbar navbar-expand-lg navbar-light sticky-top">
             <div className="container d-flex justify-content-between">
                 <div className='d-flex align-items-center'>
-                    <img src={logo} className="image-fluid me-3" width="100px" />
+                    <img src={logo} className="image-fluid me-3" width="100px" alt='logo' />
                     <div className="collapse navbar-collapse" id="navbarNav">
                         <ul className="navbar-nav">
                             <li className="nav-item">
-                                <a to="/home" className="nav-link active fw-bolder mx-2" aria-current="page" >PRODUCT</a>
+                                <a href='/' className="nav-link active fw-bolder mx-2" aria-current="page" >PRODUCT</a>
                             </li>
                             <li className="nav-item">
-                                <a to="/home" className="nav-link active fw-bolder mx-2" aria-current="page" >WHO WE SERVE</a>
+                                <a  href='/' className="nav-link active fw-bolder mx-2" aria-current="page" >WHO WE SERVE</a>
                             </li>
                             <li className="nav-item">
-                                <a to="/home" className="nav-link active fw-bolder mx-2" aria-current="page" >PRICING</a>
+                                <a  href='/' className="nav-link active fw-bolder mx-2" aria-current="page" >PRICING</a>
                             </li>
                         </ul>
                     </div>
