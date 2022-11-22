@@ -24,7 +24,7 @@ export default function PageModal(props) {
                 <h3 className='text-center fw-bolder'>Start using Asiiko for your</h3>
                 <h3 className='text-center fw-bolder'>team today!</h3>
                 <div className='d-flex flex-md-row flex-column justify-content-between container p-4'>
-                    <div className='mx-2 w-50-md mb-sm-5'>
+                    <div className='mx-2 w-50 mb-sm-5'>
                         <h5 className='text-light text-center bg-dark p-4 mb-0 rounded-top'>For Organizations</h5>
                         <OrganizationDiv className='d-flex justify-content-center py-5'>
                             <Button
@@ -39,7 +39,7 @@ export default function PageModal(props) {
                             />
                         </OrganizationDiv>
                     </div>
-                    <div className='rounded mx-2 w-50-md mb-sm-3'>
+                    <div className='rounded mx-2 w-50 mb-sm-3'>
                         <h5 className='text-light text-center bg-success p-4 mb-0 rounded-top'>For Workers</h5>
                         <WorkerDiv className='d-flex justify-content-center py-5'>
                             <img src={appStore} alt="appstore" width="200px" />
