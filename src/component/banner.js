@@ -46,7 +46,7 @@ export default function Banner() {
                         <IoNavigateCircleSharp className='text-dark fs-2' />
                     </div>
                 </div>
-                <div className='w-50 ms-2'>
+                <div className='w-50-md ms-2'>
                     <img src={banner} alt="banner" width="500px" className='img-fluid' />
                 </div>
             </section>
