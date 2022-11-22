@@ -23,7 +23,7 @@ export default function PageModal(props) {
             <Modal.Body>
                 <h3 className='text-center fw-bolder'>Start using Asiiko for your</h3>
                 <h3 className='text-center fw-bolder'>team today!</h3>
-                <div className='d-flex justify-content-between container p-4'>
+                <div className='d-flex flex-md-row flex-column justify-content-between container p-4'>
                     <div className='mx-2 w-50 mb-sm-5'>
                         <h5 className='text-light text-center bg-dark p-4 mb-0 rounded-top'>For Organizations</h5>
                         <OrganizationDiv className='d-flex justify-content-center py-5'>
