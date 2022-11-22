@@ -47,7 +47,7 @@ export default function Banner() {
                     </div>
                 </div>
                 <div className='w-50 ms-2'>
-                    <img src={banner} alt="banner" width="500px" />
+                    <img src={banner} alt="banner" width="500px" className='img-fluid' />
                 </div>
             </section>
             {/* end section */}
