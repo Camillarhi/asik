@@ -11,6 +11,7 @@ export default function Banner() {
 
     return (
         <>
+            {/* start section */}
             <section className="d-flex justify-content-between container mt-5 pt-4">
                 <div className='w-50 me-2 pt-2'>
                     <div className='d-flex justify-content-center mb-2'>
@@ -50,8 +51,13 @@ export default function Banner() {
                     <img src={banner} alt="banner" width="500px" />
                 </div>
             </section>
+            {/* end section */}
+
+            {/* start modal */}
             <PageModal show={modalShow}
                 onHide={() => setModalShow(false)} />
+
+            {/* end model */}
         </>
     )
 }
