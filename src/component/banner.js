@@ -13,7 +13,7 @@ export default function Banner() {
         <>
             {/* start section */}
             <section className="d-md-flex justify-content-between container mt-5 pt-4">
-                <div className='w-50 me-2 pt-2'>
+                <div className='w-50-md me-2 pt-2 text-center-sm'>
                     <div className='d-flex justify-content-center mb-2'>
                         <BsPersonCircle className='text-primary fs-2' />
                     </div>
@@ -29,16 +29,15 @@ export default function Banner() {
                     <p>Asiiko helps youtrack your employees' time and automate</p>
                     <p> timesheets. Every day, real-time updates that let you keep on</p>
                     <p> top of your team's job activities.</p>
-                    <div className='py-2'>
+                    <div className='py-2 d-sm-flex align-items-center'>
                         <Button
                             text="GET STARTED TODAY"
-                            buttonClass="btn-primary"
+                            buttonClass="btn-primary mb-2"
                             textColor="light"
                             mod={() => setModalShow(true)}
                         />
-
                         <Button
-                            text="LEARN MORE"
+                            text="LEARN MORE mb-2"
                             style={{ backgroundColor: "#7FFFD4" }}
                             textColor="dark"
                             icon={<BiChevronsDown className='fs-4 ms-3' />} />
