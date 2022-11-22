@@ -23,7 +23,7 @@ export default function PageModal(props) {
             <Modal.Body>
                 <h3 className='text-center fw-bolder'>Start using Asiiko for your</h3>
                 <h3 className='text-center fw-bolder'>team today!</h3>
-                <div className='d-flex flex-md-row flex-column justify-content-between container px-4'>
+                <div className='d-md-flex d-none flex-md-row flex-column justify-content-between container px-4'>
                     <div className='mx-2 w-50 my-4'>
                         <h5 className='text-light text-center bg-dark p-4 mb-0 rounded-top'>For Organizations</h5>
                         <OrganizationDiv className='d-flex justify-content-center py-5'>
@@ -40,6 +40,29 @@ export default function PageModal(props) {
                         </OrganizationDiv>
                     </div>
                     <div className='mx-2 w-50 my-4'>
+                        <h5 className='text-light text-center bg-success p-4 mb-0 rounded-top'>For Workers</h5>
+                        <WorkerDiv className='d-flex justify-content-center py-5'>
+                            <img src={appStore} alt="appstore" width="200px" />
+                        </WorkerDiv>
+                    </div>
+                </div>
+                <div className='d-flex flex-md-row flex-column d-md-none justify-content-between container px-4'>
+                    <div className='mx-2 w-100 my-4'>
+                        <h5 className='text-light text-center bg-dark p-4 mb-0 rounded-top'>For Organizations</h5>
+                        <OrganizationDiv className='d-flex justify-content-center py-5'>
+                            <Button
+                                text="LOG IN"
+                                buttonClass="btn-primary btn-sm"
+                                textColor="light"
+                            />
+                            <Button
+                                text="SIGN UP"
+                                buttonClass="btn-light btn-sm"
+                                textColor="dark"
+                            />
+                        </OrganizationDiv>
+                    </div>
+                    <div className='mx-2 w-100 my-4'>
                         <h5 className='text-light text-center bg-success p-4 mb-0 rounded-top'>For Workers</h5>
                         <WorkerDiv className='d-flex justify-content-center py-5'>
                             <img src={appStore} alt="appstore" width="200px" />
