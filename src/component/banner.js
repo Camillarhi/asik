@@ -13,7 +13,7 @@ export default function Banner() {
         <>
             {/* start section */}
             <section className="d-md-flex justify-content-between container mt-5 pt-4">
-                <div className='w-50-md me-2 pt-2 text-center-sm'>
+                <div className='w-50-md me-2 pt-2 text-center-sm mb-3'>
                     <div className='d-flex justify-content-center mb-2'>
                         <BsPersonCircle className='text-primary fs-2' />
                     </div>
