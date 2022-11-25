@@ -26,7 +26,7 @@ export default function Banner() {
                         <hr className='w-25 me-2' />
                         <hr className='w-25 ms-2' />
                     </div>
-                    <p>Asiiko helps youtrack your employees' time and automate</p>
+                    <p>Asiiko helps you track your employees' time and automate</p>
                     <p> timesheets. Every day, real-time updates that let you keep on</p>
                     <p> top of your team's job activities.</p>
                     <div className='py-2 d-sm-flex align-items-center'>
