@@ -37,7 +37,7 @@ export default function Banner() {
                             mod={() => setModalShow(true)}
                         />
                         <Button
-                            text="LEARN MORE mb-2"
+                            text="LEARN MORE"
                             style={{ backgroundColor: "#7FFFD4" }}
                             textColor="dark"
                             icon={<BiChevronsDown className='fs-4 ms-3' />} />
